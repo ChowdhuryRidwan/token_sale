@@ -12,7 +12,7 @@ contract RToken {
     // We need a constructor.
     // Set the  total number of tokens.
     // Read the total number of tokens.
-    uint256 public totalSupply = 75000; //state variable that will write to blockchain whenever contract is migrated.
+    uint256 public totalSupply = 750000; //state variable that will write to blockchain whenever contract is migrated.
 /* This was done when everything was working fine. function was changed to a constructor
     constructor () public { // visibility set to public since function has to run when smart contract is deployed
         totalSupply = 1000000; //total tokens.
